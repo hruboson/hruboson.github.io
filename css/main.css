@@ -1,0 +1,111 @@
+@font-face {
+    font-family: friary;
+    src: url("../fonts/Friarypro.ttf");
+}
+
+@font-face {
+    font-family: consolas_local;
+    src: url("../fonts/CONSOLA.TTF");
+}
+
+body {
+    max-width: 100%;
+    scrollbar-face-color: #ffca28;
+    overflow-x: hidden;
+}
+
+.bg-gray {
+    background-color: #333333;
+}
+
+.bg-dark-grey {
+    background-color: #262626;
+}
+
+.h1::before, .h2::before, .display-1::before, .display-2::before {
+    content: "<";
+    color: #ffca28;
+}
+
+.h1::after, .h2::after, .display-1::after, .display-2::after {
+    content: ">";
+    color: rgb(255, 202, 40);
+}
+
+.text-black .h2::before {
+    content: "<";
+    color: white !important;
+}
+
+.text-black .h2::after {
+    content: ">";
+    color: white !important;
+}
+
+.text-black a {
+    color: white;
+}
+
+.lh-25 {
+    line-height: 27px;
+}
+
+.text-muted {
+    color: darkgray !important;
+}
+
+.text-small {
+    display: block;
+    font-size: 14px;
+    line-height: 13px !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../img/share-nodes-solid-yellow.png") !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.education-ul ul li p,
+.experience-ul ul li p {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.education-ul ul li:first-child {
+    list-style-image: url('../img/my-experience/oauh.png');
+}
+
+.education-ul ul li:first-child+li {
+    list-style-image: url('../img/my-experience/vut.png');
+}
+
+.education-ul ul li:first-child+li+li {
+    list-style-image: url('../img/my-experience/cisco.png');
+}
+
+.education-ul ul li:first-child+li+li+li {
+    list-style-image: url('../img/my-experience/edhouse.png');
+}
+
+.experience-ul ul li:first-child {
+    list-style-image: url('../img/my-experience/imperialmedia.png');
+}
+
+.experience-ul ul li:first-child+li {
+    list-style-image: url('../img/my-experience/vlado.png');
+}
+
+.experience-ul ul li:first-child+li+li {
+    list-style-image: url('../img/portret.png');
+}
