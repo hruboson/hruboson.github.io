@@ -32,12 +32,12 @@ body {
     color: rgb(255, 202, 40);
 }
 
-.text-black .h2::before {
+.text-black .h2::before, .text-black .display-1::before {
     content: "<";
     color: white !important;
 }
 
-.text-black .h2::after {
+.text-black .h2::after, .text-black .display-1::after {
     content: ">";
     color: white !important;
 }
@@ -108,4 +108,8 @@ body {
 
 .experience-ul ul li:first-child+li+li {
     list-style-image: url('../img/portret.png');
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: white;
 }
