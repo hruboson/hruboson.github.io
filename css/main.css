@@ -109,7 +109,3 @@ body {
 .experience-ul ul li:first-child+li+li {
     list-style-image: url('../img/portret.png');
 }
-
-.swiper-button-prev, .swiper-button-next {
-    color: white;
-}
