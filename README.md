@@ -1,15 +1,12 @@
-#Personal portfolio
+# Personal portfolio
 This is my personal portfolio in a form of website. Currently hosting at Github Pages - hruboson.github.io
 
-#Libs
+# Libs
 - Bootstrap
 - FontAwesome
 - Hover
 - PatternCSS
 - Rellax
 
-##To-do
+## To-do
 - Animated progress bar (start when user scrolls down to the skills section)
-
-##Enhancements
-- Better carousel (find suitable library for responsive carousel)
