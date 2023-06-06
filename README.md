@@ -1,5 +1,5 @@
 # Personal portfolio
-This is my personal portfolio in a form of website. Currently hosting at Github Pages - hruboson.github.io
+This is my personal portfolio in a form of website. Currently hosting at Github Pages - [hrubos.dev](hrubos.dev)
 
 # Libs
 - Bootstrap
