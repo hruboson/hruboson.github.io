@@ -83,11 +83,11 @@ body {
 }
 
 .education-ul ul li:first-child {
-    list-style-image: url('../img/my-experience/oauh.png');
+    list-style-image: url('../img/my-experience/vut.png');
 }
 
 .education-ul ul li:first-child+li {
-    list-style-image: url('../img/my-experience/vut.png');
+    list-style-image: url('../img/my-experience/oauh.png');
 }
 
 .education-ul ul li:first-child+li+li {
