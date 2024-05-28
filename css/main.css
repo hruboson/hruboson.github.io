@@ -97,6 +97,9 @@ body {
 .education-ul ul li:first-child+li+li+li {
     list-style-image: url('../img/my-experience/edhouse.png');
 }
+.education-ul ul li:first-child+li+li+li+li {
+    list-style-image: url('../img/my-experience/latvian-quantum-initiative-logo.jpg');
+}
 
 .experience-ul ul li:first-child {
     list-style-image: url('../img/my-experience/imperialmedia.png');
