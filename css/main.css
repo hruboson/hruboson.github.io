@@ -83,21 +83,25 @@ body {
 }
 
 .education-ul ul li:first-child {
-    list-style-image: url('../img/my-experience/vut.png');
+    list-style-image: url('../img/my-experience/utb.jpg');
 }
 
 .education-ul ul li:first-child+li {
-    list-style-image: url('../img/my-experience/oauh.png');
+    list-style-image: url('../img/my-experience/vut.png');
 }
 
 .education-ul ul li:first-child+li+li {
-    list-style-image: url('../img/my-experience/cisco.png');
+    list-style-image: url('../img/my-experience/oauh.png');
 }
 
 .education-ul ul li:first-child+li+li+li {
+    list-style-image: url('../img/my-experience/cisco.png');
+}
+
+.education-ul ul li:first-child+li+li+li+li {
     list-style-image: url('../img/my-experience/edhouse.png');
 }
-.education-ul ul li:first-child+li+li+li+li {
+.education-ul ul li:first-child+li+li+li+li+li {
     list-style-image: url('../img/my-experience/latvian-quantum-initiative-logo.jpg');
 }
 
