@@ -12,10 +12,11 @@ body {
     max-width: 100%;
     scrollbar-face-color: #ffca28;
     overflow-x: hidden;
+	background-color: #141415;
 }
 
 .bg-gray {
-    background-color: #333333;
+    background-color: #141415;
 }
 
 .bg-dark-grey {
