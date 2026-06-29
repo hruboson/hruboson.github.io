@@ -1,3 +1,7 @@
+:root {
+	--primary-yellow: #ffca28; /* rgb(255, 202, 40) */
+}
+
 @font-face {
     font-family: friary;
     src: url("../fonts/Friarypro.ttf");
@@ -10,7 +14,7 @@
 
 body {
     max-width: 100%;
-    scrollbar-face-color: #ffca28;
+    scrollbar-face-color: var(--primary-yellow);
     overflow-x: hidden;
 	background-color: #141415;
 }
@@ -25,12 +29,12 @@ body {
 
 .h1::before, .h2::before, .display-1::before, .display-2::before {
     content: "<";
-    color: #ffca28;
+    color: var(--primary-yellow);
 }
 
 .h1::after, .h2::after, .display-1::after, .display-2::after {
     content: ">";
-    color: rgb(255, 202, 40);
+    color: var(--primary-yellow);
 }
 
 .text-black .h2::before, .text-black .display-1::before {
@@ -81,6 +85,14 @@ body {
 .experience-ul ul li p {
     vertical-align: top;
     display: inline-block;
+}
+
+.project-card {
+	border: 2px solid var(--primary-yellow);
+}
+.project-title::before {
+    content: ">_ ";
+    color: var(--primary-yellow);
 }
 
 .education-ul ul li:first-child {
